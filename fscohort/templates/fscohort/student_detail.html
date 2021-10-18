@@ -20,5 +20,8 @@
 <div>
 	{{student.gender}}
 </div>
+<div>
+	<a href="{% url 'update' student.id %}">Edit</a>
+</div>
 
 {% endblock content %}
