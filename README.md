@@ -58,6 +58,7 @@ $ git clone https://github.com/your-user-name/your-project-name
 
 # Run the app
 $ python manage.py runserver
+
 ```
 
 ## Acknowledgements
