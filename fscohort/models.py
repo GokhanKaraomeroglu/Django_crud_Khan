@@ -19,4 +19,4 @@ class Student (models.Model):
   images = models.ImageField(upload_to = 'student/', default = 'avatar.png' )
   
   def __str__(self):
-        return (f"{self.number} - {self.first_name}")
+        return (f"{self.number} - {self.first_name} {self.last_name}")

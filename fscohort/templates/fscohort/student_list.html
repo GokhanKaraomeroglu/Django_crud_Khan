@@ -1,9 +1,11 @@
 {% extends 'fscohort/base.html' %}
 {% block content %}
-<h2>Student List</h2>
+<h2>Khan Student List</h2>
 <ul>
 {% for student in students %}
-<li>{{student}} </li>
+<a href = "{% url 'detail' student.id %}">
+<li>{{student}} </li> 
+</a>
 {% endfor %}
 </ul>
 {% endblock content %}
