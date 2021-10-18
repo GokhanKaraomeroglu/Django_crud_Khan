@@ -4,3 +4,19 @@ from django.http import HttpResponse
 
 def home(request):
     return render(request, 'fscohort/home.html')
+
+
+def student_list(request):
+    pass
+
+def student_add(request):
+    pass
+
+def student_detail(request):
+    pass
+
+def student_update(request):
+    pass
+
+def student_delete(request):
+    pass
